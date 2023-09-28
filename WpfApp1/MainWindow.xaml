@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="800">
+        Title="MainWindow" Height="500" Width="1000">
     <Grid x:Name="grid1">
-        <TextBox x:Name="textBox1" Height="20" Width="300" Margin="248,129,244,220"/>
-        <Button x:Name="button1" Height="20" Width="100" Content="«Выполнить»" Margin="348,154,344,195"/>
-        <Button x:Name="button2" Height="20" Content="&lt;Button Name=&quot;button2&quot;&gt;" Margin="290,194,290,155" />
-        <Button x:Name="button3" xml:space="preserve" Content="Привет,            мир!" Margin="290,219,290,130"/>
+        <TextBox x:Name="textBox1" Height="25" Width="300" Margin="347,127,345,312"/>
+        <Button x:Name="button1" Height="25" Width="150" Content="Выполнить" Click="button1_Click" Margin="396,295,396,144"/>
+        <Button x:Name="button2" Height="25" Width="150" Content="&lt;Button Name=&quot;button2&quot;&gt;" Margin="396,349,396,90" />
+        <Button x:Name="button3" Height="25" Width="150" xml:space="preserve" Content="Привет,            мир!" Margin="396,403,396,36"/>
     </Grid>
 </Window>
